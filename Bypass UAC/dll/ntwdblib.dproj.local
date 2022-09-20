@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.485,C:\Users\Home\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Home\Desktop\dll\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.952,C:\Users\Home\Desktop\dll\ntwdblib.dproj=C:\Users\Home\Desktop\dll\wdscore.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.584,C:\Users\Home\Desktop\dll\comctrl32.dproj=C:\Users\Home\Desktop\dll\CRYPTBASE.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.029,C:\Users\Home\Desktop\dll\wdscore.dproj=C:\Users\Home\Desktop\dll\CRYPTBASE.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,C:\Users\Home\Desktop\dll\CRYPTBASE.dproj=C:\Users\Home\Desktop\dll\comctrl32.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.568,C:\Users\Home\Desktop\dll\CRYPTBASE.dproj=C:\Users\Home\Desktop\dll\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
